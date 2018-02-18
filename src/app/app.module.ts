@@ -20,6 +20,7 @@ import { FooterComponent } from './componentes/footer/footer.component';
 import { PortafolioHomeComponent } from './componentes/portafolio-home/portafolio-home.component';
 import { AboutComponent } from './componentes/about/about.component';
 import { ItemComponent } from './componentes/item/item.component';
+import { BuscarComponent } from './componentes/buscar/buscar.component';
 
 
 
@@ -31,6 +32,7 @@ import { ItemComponent } from './componentes/item/item.component';
     PortafolioHomeComponent,
     AboutComponent,
     ItemComponent,
+    BuscarComponent,
   ],
   imports: [
     BrowserModule,

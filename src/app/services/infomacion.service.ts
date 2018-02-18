@@ -18,7 +18,6 @@ export class InfomacionService {
   public cargar_info() { 
       this.http.get("assets/data/info.paginas.json")
         .subscribe( data => {
-          //console.log(data.json());
           this.cargada = true;
           this.info=data.json();
         })
@@ -27,7 +26,7 @@ export class InfomacionService {
   public cargar_sobre_nosotros(){
     this.http.get("https://paginaweb-374a0.firebaseio.com/equipo.json")
     .subscribe( data => {
-      console.log(data.json());
+     
       this.cargada_sobre_nosotros = true;
       this.equipo=data.json();
     })
